@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Day3 {
 	public static void main(String[] args) {
-		String[] input = InputHandler.readInput("input_data/input-3.txt");
+		String[] input = InputHandler.readMultiLine("input_data/input-3.txt");
 		int number_of_inputs = input.length;
 		int[] ones  = new int[12];
 		int[] zeros = new int[12];

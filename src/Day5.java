@@ -5,7 +5,7 @@ public class Day5 {
 	static int[] y2;
 
 	public static void main(String[] args) {
-		String[] input = InputHandler.readInput("input_data/input-5.txt");
+		String[] input = InputHandler.readMultiLine("input_data/input-5.txt");
 
 		// arrays of starting (1) and ending (2) positions of lines
 		x1 = new int[input.length];

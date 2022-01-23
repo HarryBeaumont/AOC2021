@@ -65,7 +65,7 @@ public class Day4 {
 	}
 
 	public static void main(String[] args) {
-		String[] input = InputHandler.readInput("input_data/input-4.txt");
+		String[] input = InputHandler.readMultiLine("input_data/input-4.txt");
 
 		int[] numbers = Stream.of(input[0].split(",")).mapToInt(Integer::parseInt).toArray();
 		List<BingoCard> Cards = new ArrayList<BingoCard>();

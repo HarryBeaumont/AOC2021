@@ -2,7 +2,7 @@ import java.util.stream.Stream;
 
 public class Day1 {
 	public static void main(String[] args) {
-		String[] input = InputHandler.readInput("input_data/input-1.txt");
+		String[] input = InputHandler.readMultiLine("input_data/input-1.txt");
 		int[] depths = Stream.of(input).mapToInt(Integer::parseInt).toArray();
 
 		int single = 0;

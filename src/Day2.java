@@ -1,6 +1,6 @@
 public class Day2 {
 	public static void main(String[] args) {
-		String[] input = InputHandler.readInput("input_data/input-2.txt");
+		String[] input = InputHandler.readMultiLine("input_data/input-2.txt");
 
 		int xpos = 0;
 		int ypos = 0;
